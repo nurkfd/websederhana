@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Images/patern.png);
+}
+ol, ul,li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+.container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding :20px
+}
+
+.navbar ul {
+    margin-left: 20px;
+    
+    
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 2px;
+    
+}
+.navbar a{
+    padding:  5px;
+    background-color: lightblue;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.navbar a:hover {
+    color: lightblue;
+    background-color: grey;
+}
+
+.hero {
+    height: 280px;
+    background-image: url(../Images/gurun.jpg);
+    border-top: 5px solid salmon;
+    margin-top: 20px;
+    border-bottom: 5px solid rgb(68, 68, 68);
+    background-position: center;
+    
+}
+.content {
+    padding: 20px;
+    font-size:  14px;
+    
+}
+.content p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.content h2{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.getAuthor {
+    color: salmon;
+}
+
+.footer  {
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    
+}
+
+.footer .copy {
+    text-align: center;
+    color: #eaeaea;
+    margin: auto;
+    font-size: 11px;
+}
+
